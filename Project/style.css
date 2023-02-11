@@ -1,0 +1,343 @@
+body 
+{
+    margin: 0;
+    font-family: 'Montserrat';
+}
+
+
+/* LOGIN */
+.login{
+    display: flex;
+    width: 70%;
+    align-items: center;
+    margin: auto;
+    margin-top: 5%;
+    padding-bottom: 6%;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    padding-top: 5%;
+    margin-bottom: 10%;
+}
+.login .left .logo{
+    margin-left: 13%;}
+.login .left .logo span{font-size: 15px;
+    text-transform: uppercase;}
+.login .left .img{margin-top: 15%;}
+.login .left{
+    width: 50%;
+    float: left;
+}
+.login .left .img img{
+    width: 100%;
+}
+
+/* SINGIN RIGHT PART */
+.login .right form {
+    width: 80%;
+    margin-top: 15%;
+}
+.login .right .d_input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4%;
+    background: #eff2f4;
+    padding: 2px 0px;
+    color: #babdc3;
+    padding-left: 5%;
+    padding-bottom: 12px;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+.login .right .d_input i{
+    font-size: 22px;
+}
+.login .right .d_input .right_input{
+    margin-left: 20px;
+}
+.login .right .d_input .right_input{
+    display: inline-block;
+    margin-bottom: 0px;
+}
+.login .right .d_input .right_input input {
+    border: 0px;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: 0;
+}
+.login .right .d_input i.fa.fa-thin.fa-lock {
+    font-size: 32px;
+}
+.login .right .d_input a{
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.login .right{
+    width: 50%;
+    float: left;
+}
+.login .right a{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 6%;
+    margin-top: 5%;
+    color: black;
+}
+.login .right .btn1 {
+    border: 0;
+    background: #3b8ff7;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 50px;
+    margin-right: 4%;
+    cursor: pointer;
+    font-size: 15px;
+}
+.login .right .btn2 {
+    font-size: 15px;
+    background: transparent;
+    border: 0px;
+    cursor: pointer;
+    width:auto;
+}
+.login .right h2{
+    margin-top: 0px;
+}
+.login .right h3{
+    margin-top: 0px;
+    font-size: 15px;
+    font-weight: 300;
+    padding-right: 3%;
+}
+
+/* SIGNUP */
+.signup {
+    display: flex;
+    width: 70%;
+    align-items: center;
+    margin: auto;
+    margin-top: 5%;
+    /* padding-bottom: 6%; */
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    padding-top: 4%;
+    margin-bottom: 10%;
+}
+.signup .right {
+    width: 50%;
+    float: left;
+    padding-left: 8%;
+}
+.signup .right h2 {
+    margin-top: 0px;
+}
+.signup .right h3 {
+    margin-top: 0px;
+    font-size: 15px;
+    font-weight: 300;
+    padding-right: 3%;
+}
+.signup .right form {
+    width: 90%;
+    margin-top: 6%;
+}
+.signup .right .d_input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4%;
+    background: #eff2f4;
+    padding: 2px 0px;
+    color: #babdc3;
+    padding-left: 5%;
+    padding-bottom: 12px;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+.signup .right .d_input .right_input {
+    display: inline-block;
+    margin-bottom: 0px;
+}
+.signup .right .d_input .right_input {
+    margin-left: 20px;
+}
+.signup .right .d_input .right_input span{
+    font-size: 14px;
+}
+.signup .right .d_input .right_input input {
+    border: 0px;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: 0;
+}
+.signup .right a {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 6%;
+    margin-top: 5%;
+    color: black;
+}
+.signup .right .btn1 {
+    border: 0;
+    background: #3b8ff7;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 50px;
+    margin-right: 4%;
+    font-size: 15px;
+    cursor: pointer;
+}
+.signup .right .btn2 {
+    font-size: 15px;
+    background: transparent;
+    border: 0px;
+    cursor: pointer;
+    width:auto;
+}
+.signup .left {
+    width: 50%;
+    float: left;
+}
+.signup .left .logo {
+    margin-right: 13%;
+    text-align: right;
+}
+.signup .left .logo span {
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.signup .left .img {
+    margin-top: 110%;
+    text-align: right;
+}
+.signup .left .img img {
+    width: 40%;
+}
+
+/* NEWS */
+.news .left{
+    width: 50%;
+    float: left;
+}
+.news .right {
+    width: 40%;
+    float: left;
+    padding: 0px 50px;
+    text-align: center;
+}
+.news .left .item {
+    display: flex;
+    align-items: center;
+    background: #f7f9fa;
+    padding: 10px 22px;
+    margin-bottom: 20px;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+}
+.news .left .item .item_center {
+    width: 35%;
+    margin: 0px 25px;
+}
+.news .left .item .item_center img{
+    width: 100%;
+}
+.news .left .item .item_right h2{
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+.news .left .item .item_right h6{
+    display: inline-block;
+    margin: 0;
+    font-size: 15px;
+    margin-top: 10%;
+    font-weight: 400;
+}
+.news .left .item .item_right span h3{
+    width: auto;
+    display: inline-block;
+    margin-right: 5px;
+}
+.news .right .title{
+    display: flex;
+    align-items: center;
+}
+.news .right .icon_img{
+    width: 50px;
+    margin-right: 2%;
+}
+.news .right .title span h3{
+    width: auto;
+    display: inline-block;
+    margin-right: 5px;
+}
+.news .right .main_img{
+    width: 90%;
+}
+.news .right h2{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+}
+.news .right h4{
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+}
+.news {
+    width: 85%;
+    margin: auto;
+    padding: 40px 25px;
+}
+.news .ch_news{
+    display: flex;
+}
+
+/* PROFILE */
+.profile .banner .content .extra_content img{
+    width: 14%;
+}
+.profile form{
+    padding: 0px 30px;
+    width: 60%;
+    margin: auto;
+    margin-top: 5%;
+}
+.profile form .item{
+    margin-bottom: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.profile form .item span{
+    margin-right: 20%;
+    font-size: 18px;
+}
+.profile form .item input {
+    padding: 10px 10px;
+    border-radius: 7px;
+    border: 1px solid black;
+    width: 50%;
+}
+.profile .banner .surface{
+    background: black;
+    height: 180px;
+}
+.profile .banner .content {
+    padding: 0px 30px;
+}
+.profile .banner .content .extra_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.profile .banner .content .extra_content .save .save_a{
+    background: #354155;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.profile .banner .content .extra_content .save .cancel_a{
+    border: 1px solid;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    margin-right: 25px;
+}
